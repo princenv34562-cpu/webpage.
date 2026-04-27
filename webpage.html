@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:  #495d4e;
+        }
+        .header{
+            background-color: #fff;
+            height: 100px;
+            width: 100%;
+            text-transform: uppercase;
+        }
+        .header h4{
+            color: rgb(218, 70, 70);
+            margin-left: 200px;
+            padding-top: 40px;
+        }
+        .header h6{
+            margin-left: 200px;
+            letter-spacing: 1px;
+        }
+        .header-right{
+            margin-left: 400px;
+            margin-top: -20px;
+            width: 70%;
+            display: flex;
+            justify-content: space-around;
+        }
+        .header-right a{
+            text-decoration: none;
+            font-weight: bolder;
+            color: black;
+        }
+        .main{
+            height: 800px;
+            width: 100%;
+            background-image: url(webimg.jpeg);
+            background-size: cover;
+        }
+        .main h3{
+            color: #ccc;
+            text-transform: uppercase;
+            font-weight: 400;
+            padding-left: 100px;
+            padding-top: 150px;
+            
+        }
+        .main h1{
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 90px;
+            padding-left: 100px;
+        }
+        .main p{
+            padding-left: 100px;
+            padding-top: 20px;
+            color: #ccc;
+            font-size: large;
+        }
+        .f{
+            background-color: rgb(161, 50, 50);
+            color: #fff;
+            text-transform: uppercase;
+            margin-left: 100px;
+            margin-top: 30px;
+            padding: 10px;
+            font-weight: bold;
+            border: 4px solid rgb(161, 50, 50);
+            cursor: pointer;
+        }
+        .s{
+            color: rgb(161, 50, 50);
+            text-transform: uppercase;
+            padding: 10px;
+            border: 4px solid #fff;
+            margin-left: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .main2 p{
+            font-size: 60px;
+            font-weight: bolder;
+            text-transform: uppercase;
+            color: #fff;
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .main2 img{
+            height: 400px;
+            width: 300px;
+            margin-left: 150px;
+            margin-bottom: 50px;
+            border-radius: 20px;
+        }
+        .main3 button{
+            background-color: rgb(161, 50, 50);
+            height: 40px;
+            width: 160px;
+            color: #fff;
+            font-weight: bold;
+            border: 1px solid rgb(161, 50, 50);
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+        .main3 p{
+            color: #fff;
+            text-align: center;
+            font-size: large;
+            padding-bottom: 55px;
+        }
+        .features{
+            display: flex;
+            justify-content: space-around;
+        }
+        .card{
+            height: 200px;
+            width: 230px;
+            background-color: beige;
+            border-radius: 20px;
+            color: rgb(152, 94, 18);
+            text-align: center;
+        }
+        .icon i{
+            font-size: 60px;
+            margin-bottom: 18px;
+            box-sizing: border-box;
+            margin-top: 40px;
+        }
+        .card p{
+            font-size: large;
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+        .bottom{
+            margin-top: -100px;
+            background-color: #fff;
+        }
+        .heading{
+            font-size: 60px;
+            color: green;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding-left: 100px;
+            padding-top: 200px;
+        }
+        .text{
+            padding-left: 100px;
+            padding-top: 30px;
+            padding-bottom: 50px;
+        }
+        .bottom img{
+            height: 250px;
+            width: 300px;
+            border-radius: 20px;
+            margin-left: 150px;
+            margin-bottom: 40px;
+        }
+        .arrow{
+            font-size: 40px;
+            text-align: center;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h4>interior design</h4>
+        <h6>morder home decor</h6>
+        <div class="header-right">
+            <a href="">home</a>
+            <a href="">about</a>
+            <a href="">contact</a>
+            <a href="">faq</a>
+            <a href="">more</a>
+        </div>
+    </div>
+    <div class="main">
+        <h3>welcome to interior design</h3>
+        <h1>mordern<br>home decores</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sint numquam, non molestias enim autem<br>quam minima nostrum consequuntur nesciunt architecto maxime optio?<br>Quaerat, velit quam? Illo a officiis recusandae.</p>
+        <button class="f">get started</button>
+        <button class="s">learn more</button>
+    </div>
+    <div class="main2">
+        <p>we made <br> mordern & creative <br> concepts</p>
+        <img src="web-img1.jpeg">
+        <img src="web-img2.jpeg">
+        <img src="web-img3.jpeg">
+    </div>
+    <div class="main3">
+        <center>
+        <button>GET STARTED</button>
+        </center>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit <br>euished tintival ut larorest</p>
+    </div>
+    <div class="features">
+    <div class="card">
+        <div class="icon">
+            <i class="fa-solid fa-award"></i>
+        </div>
+        <p>best quality</p>
+    </div>
+    <div class="card">
+        <div class="icon">
+            <i class="fa-regular fa-truck"></i>
+        </div>
+        <p>free shipping</p>
+    </div>
+    <div class="card">
+        <div class="icon">
+            <i class="fa-solid fa-shield"></i>
+        </div>
+        <p>warranty</p>
+    </div>
+    </div>
+    <div class="bottom">
+        <p class="heading">we provide you the <br> best experience</p>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt velit iure, quasi necessitatibus quam<br> a eaque voluptatem. Repellat, quaerat voluptatem. Saepe eveniet doloremque aspernatur, blanditiis<br> numquam error tenetur dolore voluptates</p>
+        <img src="web-bottom1.jpeg">
+        <img src="web-bottom2.jpeg">
+        <img src="web-bottom3.jpeg">
+        <p class="arrow">>>>></p>
+    </div>
+</body>
+</html>
